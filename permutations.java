@@ -11,7 +11,6 @@ public class permutations {
         String newstr=str.substring(0, i)+str.substring(i+1);
         print_perm(newstr, perm+currchar, idx+1);
     }
-
 }
     public static void main(String args[]){
         String str="ABC";
